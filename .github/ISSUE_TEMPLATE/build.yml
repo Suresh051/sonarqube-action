@@ -8,6 +8,3 @@ jobs:
     - uses: actions/checkout@master
     - name: SonarQube Scan
       uses: Suresh051/sonarqube-action@v1.1.0
-      with:
-        host: ${{ secrets.SONARQUBE_HOST }}
-        login: ${{ secrets.SONARQUBE_TOKEN }}
